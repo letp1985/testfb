@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "schema": "https://schema.org/",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    {
+      "title": "schema:title",
+      "description": "schema:abstract",
+      "url": "schema:url",
+      "dateCreated": {
+        "@id": "schema:dateCreated",
+        "@type": "xsd:date"
+      },
+      "datePublished": {
+        "@id": "schema:dateCreated",
+        "@type": "xsd:date"
+      },
+      "inLanguage": "schema:inLanguage",
+      "keywords": "schema:keywords",
+      "license": "schema:license",
+      "potentialAction": "schema:potentialAction",
+      "creator": "dcterms:creator",
+      "projectName": "schema:name",
+      "projectAcronmym": "schema:alternateName",
+      "projectURL": {
+        "@id": "schema:url",
+        "@type": "@id"
+      },
+      "format": "dcterms:format",
+      "subject": "dcterms:subject",
+      "type": "dcterms:type"
+    }
+  ]
+}
